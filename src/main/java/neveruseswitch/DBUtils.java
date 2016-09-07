@@ -14,6 +14,6 @@ public class DBUtils {
 
     public static MailInfo getMailInfo() {
 
-        return new MailInfo(dataFactory.getName(),random.nextInt(2)+1);
+        return new MailInfo(dataFactory.getName(),random.nextInt(3)+1);
     }
 }
