@@ -13,6 +13,11 @@ import java.util.Set;
  * Created by Jeka on 07/09/2016.
  */
 public class MailSender {
+
+
+
+
+
     private Map<Integer, MailGenerator> map = new HashMap<>();
 
     public MailSender() throws IllegalAccessException, InstantiationException {
