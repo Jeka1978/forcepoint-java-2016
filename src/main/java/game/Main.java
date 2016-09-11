@@ -7,7 +7,10 @@ import javax.swing.*;
  */
 public class Main {
     public static void main(String[] args) {
-        String s = JOptionPane.showInputDialog("input you number:");
-        System.out.println(s);
+        GameManager gameManager = new GameManager();
+        gameManager.play(10);
+        gameManager.printBestScores();
+        gameManager.play(20);
+        gameManager.printBestScores();
     }
 }
