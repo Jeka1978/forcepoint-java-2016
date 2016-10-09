@@ -10,6 +10,7 @@ import java.util.Random;
  * Created by Jeka on 11/09/2016.
  */
 public class ColorFrame extends JFrame {
+
     public ColorFrame() {
         setSize(400,400);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
